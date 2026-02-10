@@ -1,0 +1,29 @@
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Local env and secrets
+.env
+.env.*
+*.local
+secrets/*
+!secrets/.keepdir
+
+# Local artifacts
+.cache/*
+!.cache/.keepdir
+.tmp/*
+!.tmp/.keepdir
+logs/*
+!logs/.keepdir
+artifacts/*
+!artifacts/.keepdir
+reports/*
+!reports/.keepdir
+
+# Python/node leftovers
+__pycache__/
+*.pyc
+node_modules/
+
